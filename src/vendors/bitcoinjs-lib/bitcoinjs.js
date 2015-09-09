@@ -4685,19 +4685,18 @@ var networks = {
     feePerKb: 10000,
     estimateFee: estimateFee('testnet')
   },
-  viacoin: {
-    magicPrefix: '\x18Viacoin Signed Message:\n',
+  platinumcoin: {
+    magicPrefix: '\x18Platinum Signed Message:\n',
     bip32: {
       public: 0x0488b21e,
       private: 0x0488ade4
     },
-    pubKeyHash: 0x47,
-    scriptHash: 0x21,
-    wif: 0xc7,
-    dustThreshold: 560,
-    dustSoftThreshold: 100000,
+    pubKeyHash: 0x55,
+    scriptHash: 0x05,
+    wif: 0x80,
+    dustThreshold: 546,
     feePerKb: 100000, //
-    estimateFee: estimateFee('viacoin')
+    estimateFee: estimateFee('platinumcoin')
   },
   viacointestnet: {
     magicPrefix: '\x18Viacoin Signed Message:\n',
